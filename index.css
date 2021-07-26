@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    height: 100vh;
+    overflow-y: hidden;
+
+   background-color: black;
+    text-align: center;
+}
+.main:hover{
+    overflow-y: scroll;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #466497;
+}
+.price{
+    color: green;
+}
+
+.list{
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3.5px 3.5px 3.5px #888888;
+    
+}
+.list:hover{
+    transform: scale(1.09);
+    box-shadow: 
+    5px 5px 10px #000000, 
+     -5px -5px 10px #000000;
+}
+.name{
+    color: blue;
+}
+.img{
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+.heading{
+    color: #ffffff;
+    font-size: 40px;
+}
+h3{
+    padding: 20px;
+    color: white;
+}
+.marketcapital{
+    font-size: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 5px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #212121;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888;
+   border-radius: 100px;
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555;
+ }
